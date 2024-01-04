@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Piedra, papel o tijeras</title>
+    <link rel="stylesheet" href="styles/piedra-papel-o-tijeras.css">
+  </head>
+  <body on="mostrarRecord()">
+    <p class="title">Piedra, papel o tijeras</p>
+    <button class="move-button" onclick="jugarPiedraPapelTijeras('Piedra');"><img src="images/Piedra.png" class="move-icon"></button>
+    <button class="move-button" onclick="jugarPiedraPapelTijeras('Papel');"><img src="images/Papel.png" class="move-icon"></button>
+    <button class="move-button" onclick="jugarPiedraPapelTijeras('Tijeras');"><img src="images/Tijeras.png" class="move-icon"></button>
+    <p class="js-resultado resultado"></p>
+    <p class="js-jugada jugada"></p>
+    <p class="js-marcador marcador"></p>
+    <button class="reset-score-button" onclick="reiniciarMarcador();">Reiniciar Marcador</button>
+    <script src="scripts/piedra-papel-o-tijeras.js"></script>
+  </body>
+</html>
